@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1_interface/1_interface.iml" filepath="$PROJECT_DIR$/1_interface/1_interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_algorithm/2_algorithm.iml" filepath="$PROJECT_DIR$/2_algorithm/2_algorithm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_ArrayListClass/3_ArrayListClass.iml" filepath="$PROJECT_DIR$/3_ArrayListClass/3_ArrayListClass.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Java.iml" filepath="$PROJECT_DIR$/.idea/Java.iml" />
+    </modules>
+  </component>
+</project>
