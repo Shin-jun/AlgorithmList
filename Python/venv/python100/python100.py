@@ -55,4 +55,27 @@ print(c,b,a,sep='-');
 a,b = input().split('-');
 print(a,b,sep='');
 
+
+
+#21~25
+a = input()
+print(a[0])
+print(a[1])
+print(a[2])
+print(a[3])
+print(a[4])
+
+a = input()
+print(a[0:2], a[2:4], a[4:6], sep=" ")
+
+a = input().split(":")
+print(a[1])
+
+a, b = input().split()
+s = a+b
+print(s)
+
+a, b = input().split()
+s = int(a)+int(b)
+print(s)
 """
