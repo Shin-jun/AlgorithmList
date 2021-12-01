@@ -78,4 +78,31 @@ print(s)
 a, b = input().split()
 s = int(a)+int(b)
 print(s)
+
+
+#26~31
+a = input()
+b = input()
+c = float(a)
+d = float(b)
+print(c+d)
+
+a = input()
+n = int(a)
+print('%x' %n)
+
+a = input()
+n = int(a)
+print('%X' %n)
+
+
+a = input()
+n = int(a, 16)
+print('%o' %n)
+
+a = ord(input()) # ord : 입력받은 문자를 10진수 유니코드 값으로 변환
+print(a)
+
+a = int(input())
+print(chr(a))
 """
