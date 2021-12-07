@@ -105,4 +105,38 @@ print(a)
 
 a = int(input())
 print(chr(a))
+
+#32~40
+a = int(input())
+print(-a)
+
+a = ord(input()) # ord : 문자열을 고유의 숫자로 바꿀수 있다.
+print(chr(a+1))
+
+a, b = input().split()
+c = int(a)-int(b)
+print(c)
+
+a, b = input().split()
+c = float(a)*float(b)
+print(c)
+
+w, n = input().split()
+print(w*int(n))
+
+w = input()
+s = input()
+print(int(w)*s)
+
+a, b = input().split()
+c = int(a)**int(b)
+print(c)
+
+a,b = input().split()
+c = float(a)**float(b)
+print(c)
+
+a, b = input().split()
+c = int(a)//int(b)
+print(c)
 """
