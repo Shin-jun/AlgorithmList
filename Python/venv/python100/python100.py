@@ -139,4 +139,28 @@ print(c)
 a, b = input().split()
 c = int(a)//int(b)
 print(c)
+
+
+#41~45
+
+a, b = input().split()
+print(int(a)%int(b))
+
+a = float(input())
+print(format(a, ".2f"))
+
+a, b = input().split()
+c = float(a)/float(b)
+print(format(c, ".3f"))
+
+a, b = map(int, input().split())
+print(a+b)
+print(a-b)
+print(a*b)
+print(a//b)
+print(a%b)
+print(round(a/b, 2)) # 소수점 반올림 round()함수
+
+a, b, c = map(int, input().split())
+print(a+b+c,format((a+b+c)/3, ".2f"))
 """
