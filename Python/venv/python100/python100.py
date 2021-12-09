@@ -163,4 +163,22 @@ print(round(a/b, 2)) # 소수점 반올림 round()함수
 
 a, b, c = map(int, input().split())
 print(a+b+c,format((a+b+c)/3, ".2f"))
+
+
+# 46~50
+
+a = int(input())
+print(a<<1)
+
+a, b = map(int, input().split())
+print(a<<b)
+
+a, b = map(int, input().split())
+print(a<b)
+
+a, b = map(int, input().split())
+print(a==b)
+
+a, b = map(int, input().split())
+print(a<=b)
 """
