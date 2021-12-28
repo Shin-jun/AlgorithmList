@@ -181,4 +181,21 @@ print(a==b)
 
 a, b = map(int, input().split())
 print(a<=b)
+
+
+#50~55
+a, b = input().split()
+print(a != b)
+
+a = int(input())
+print(bool(a))
+
+a = bool(int(input()))
+print(not a)
+
+a, b = input().split()
+print(bool(int(a)) and bool(int(b)))
+
+a, b = input().split()
+print(bool(int(a)) or bool(int(b)))
 """
