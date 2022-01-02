@@ -198,4 +198,27 @@ print(bool(int(a)) and bool(int(b)))
 
 a, b = input().split()
 print(bool(int(a)) or bool(int(b)))
+
+
+# 56~60
+a, b = input().split()
+a = bool(int(a))
+b = bool(int(b))
+print((a and(not b) or ((not a) and b)))
+
+a, b = input().split()
+a = bool(int(a))
+b = bool(int(b))
+print(((not a) and (not b)) or (a and b))
+
+a, b = input().split()
+a = bool(int(a))
+b = bool(int(b))
+print(((not a) and (not b)) or (not(a or b)))
+
+a = input()
+print(~int(a))
+
+a, b = input().split()
+print(int(a)&int(b))
 """
