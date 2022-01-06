@@ -221,4 +221,104 @@ print(~int(a))
 
 a, b = input().split()
 print(int(a)&int(b))
+
+#61~66
+a, b = input().split()
+print(int(a)|int(b))
+
+a, b = input().split()
+print(int(a)^int(b))
+
+a, b = input().split()
+a = int(a)
+b = int(b)
+c = (a if (a>=b) else b)
+print(int(c))
+
+a, b, c= input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+d = (a if a<=b else b) if ((a if a<=b else b)<=c) else c
+print(int(d))
+
+a, b, c= input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+if a%2 ==0:
+    print(a)
+if b%2 ==0:
+    print(b)
+if c%2 ==0:
+    print(c)
+
+a, b, c= input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+if a%2 == 0:
+    print("even")
+else:
+    print("odd")
+if b%2 == 0:
+    print("even")
+else:
+    print("odd")
+if c%2 == 0:
+    print("even")
+else:
+    print("odd")
+
+#67~71
+a = int(input())
+if a<0:
+    if a%2 == 0:
+        print("A")
+    else:
+        print("B")
+else:
+    if a%2 == 0:
+        print("C")
+    else:
+        print("D")
+
+n = int(input())
+if n>=90 :
+  print('A')
+else :
+  if n>=70 :
+    print('B')
+  else :
+    if n>=40 :
+      print('C')
+    else :
+      print('D')
+
+a = input()
+if a == 'A':
+    print('best!!!')
+elif a == 'B':
+    print('good!!')
+elif a == 'C':
+    print('run!')
+elif a == 'D':
+    print('slowly~')
+else:
+    print('what?')
+
+n = int(input())
+if n==12 or n<=2:
+  print("winter")
+elif n<=5:
+  print("spring")
+elif n<=8:
+  print("summer")
+elif n<=11:
+  print("fall")
 """
+n=1
+while n!=0:
+    n=int(input())
+    if n!=0:
+        print(n)
